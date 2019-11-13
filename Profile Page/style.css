@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(72, 72, 72);
+}
+
+.top {
+    width: 900px;
+    height: 50px;
+    background-color: rgb(33, 33, 33);
+}
+
+.top header h1 {
+    margin: 5px;
+    padding: 0px;
+    background-color: white;
+    color: rgb(72, 72, 72);
+    font-family: tahoma;
+    text-align: center;
+    float: left;
+    cursor: default;
+}
+
+.top header {
+    margin: 5px;
+}
+
+.top nav {
+    float: right;
+}
+
+.top nav li {
+    float: left;
+    list-style-type: none;
+}
+
+.top nav li a {
+    text-decoration: none;
+    font-family: tahoma;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top nav li a:hover {
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.clean {
+    clear: both;
+}
+
+.content {
+    width: 900px;
+    margin-top: 10px;
+}
+
+.content_1 {
+    float: left;
+    width: 445px;
+    height: 1200px;
+    background-color: #000000;
+    color: white;
+}
+
+.content_1 #idendity {
+    float:left;
+    width: 445px;
+}
+
+.content_1 #idendity table {
+    margin-top: 10px;
+    font-family: Tahoma;
+    font-size: 90%;
+    margin-left: 76px;
+}
+
+.content_2 {
+    width: 445px;
+    float: right;
+    background-color: #000000;
+    color: white;
+}
+
+#image {
+    width: 80px;
+    height: 105px;
+    float: right;
+    padding-right: 10px;
+    border: 2px solid black;
+}
+
+#image img {
+    width: 75px;
+    height: 107px;
+}
