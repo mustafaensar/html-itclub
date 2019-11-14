@@ -1,18 +1,18 @@
 body {
-    background-color: rgb(72, 72, 72);
+    background-color: #f5f5f5;
 }
 
 .top {
     width: 900px;
     height: 50px;
-    background-color: rgb(33, 33, 33);
+    background-color: #c2c2c2;
 }
 
 .top header h1 {
     margin: 5px;
     padding: 0px;
-    background-color: white;
-    color: rgb(72, 72, 72);
+    background-color: black;
+    color: #c2c2c2;
     font-family: tahoma;
     text-align: center;
     float: left;
@@ -30,19 +30,20 @@ body {
 .top nav li {
     float: left;
     list-style-type: none;
+    padding-right: 10px;
 }
 
 .top nav li a {
     text-decoration: none;
     font-family: tahoma;
     font-weight: bold;
-    color: white;
+    color: black;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .top nav li a:hover {
-    background-color: #000000;
+    background-color: grey;
     border-radius: 10px;
 }
 
@@ -55,42 +56,24 @@ body {
     margin-top: 10px;
 }
 
-.content_1 {
-    float: left;
-    width: 445px;
-    height: 1200px;
-    background-color: #000000;
-    color: white;
+.content h3 {
+    margin-top: 30px;
 }
 
-.content_1 #idendity {
-    float:left;
+#idendity {
     width: 445px;
+    margin-top: 30px;
 }
 
-.content_1 #idendity table {
+#idendity table {
     margin-top: 10px;
     font-family: Tahoma;
     font-size: 90%;
     margin-left: 76px;
 }
 
-.content_2 {
-    width: 445px;
-    float: right;
-    background-color: #000000;
-    color: white;
-}
-
-#image {
-    width: 80px;
-    height: 105px;
-    float: right;
-    padding-right: 10px;
-    border: 2px solid black;
-}
-
 #image img {
     width: 75px;
     height: 107px;
+    margin-top: 30px;
 }
