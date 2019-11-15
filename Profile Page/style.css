@@ -57,6 +57,11 @@ body {
     font-family: Verdana;
 }
 
+.content h3 {
+    text-align: center;
+    background-color: #c2c2c2;
+}
+
 #idendity {
     width: 900px;
     margin-top: 30px;
@@ -87,16 +92,11 @@ body {
     margin-right: 20px;
 }
 
-.content h3 {
-    text-align: center;
-    background-color: #c2c2c2;
-}
-
 #about p {
     text-align: justify;
 }
 
-#family table {
+#family table, #education table, #hobbies table {
     border-spacing: 15px;
 }
 
@@ -116,12 +116,8 @@ body {
     padding: 5px;
 }
 
-#family td {
+#family td, #education td, #hobbies td {
     text-align: center;
-}
-
-#education table {
-    border-spacing: 15px;
 }
 
 #education thead td {
@@ -140,14 +136,6 @@ body {
     padding: 5px;
 }
 
-#education td {
-    text-align: center;
-}
-
-#hobbies table {
-    border-spacing: 15px;
-}
-
 #hobbies thead td {
     background-color: rgb(20, 20, 20);
     font-family: tahoma;
@@ -162,8 +150,4 @@ body {
     font-style: italic;
     font-family: monospace;
     padding: 5px;
-}
-
-#hobbies td {
-    text-align: center;
 }
