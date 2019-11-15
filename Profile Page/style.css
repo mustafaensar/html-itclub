@@ -13,7 +13,8 @@ body {
     padding: 0px;
     background-color: black;
     color: #c2c2c2;
-    font-family: tahoma;
+    font-family: verdana;
+    font-size: 32.5px;
     text-align: center;
     float: left;
     cursor: default;
@@ -53,27 +54,116 @@ body {
 
 .content {
     width: 900px;
-    margin-top: 10px;
-}
-
-.content h3 {
-    margin-top: 30px;
+    font-family: Verdana;
 }
 
 #idendity {
-    width: 445px;
+    width: 900px;
     margin-top: 30px;
 }
 
 #idendity table {
     margin-top: 10px;
-    font-family: Tahoma;
+    margin-left: 20px;
+    float: left;
+    border-spacing: 5px;
+    font-family: Verdana;
     font-size: 90%;
-    margin-left: 76px;
+    font-weight: bold;
+    text-align: left;
 }
 
 #image img {
     width: 75px;
     height: 107px;
-    margin-top: 30px;
+    float: right;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#about, #education, #family {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content h3 {
+    text-align: center;
+    background-color: #c2c2c2;
+}
+
+#about p {
+    text-align: justify;
+}
+
+#family table {
+    border-spacing: 15px;
+}
+
+#family thead td {
+    background-color: rgb(120, 120, 120);
+    font-family: tahoma;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+
+#family tbody td {
+    border: 1px solid black;
+    background-color: rgba(120, 120, 120, 0.2);
+    font-style: italic;
+    font-family: cursive;
+    padding: 5px;
+}
+
+#family td {
+    text-align: center;
+}
+
+#education table {
+    border-spacing: 15px;
+}
+
+#education thead td {
+    background-color: rgb(70, 70, 70);
+    font-family: tahoma;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+
+#education tbody td {
+    border: 1px solid black;
+    background-color: rgb(70, 70, 70, 0.3);
+    font-style: italic;
+    font-family: serif;
+    padding: 5px;
+}
+
+#education td {
+    text-align: center;
+}
+
+#hobbies table {
+    border-spacing: 15px;
+}
+
+#hobbies thead td {
+    background-color: rgb(20, 20, 20);
+    font-family: tahoma;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+
+#hobbies tbody td {
+    border: 1px solid black;
+    background-color: rgb(20, 20, 20, 0.4);
+    font-style: italic;
+    font-family: monospace;
+    padding: 5px;
+}
+
+#hobbies td {
+    text-align: center;
 }
