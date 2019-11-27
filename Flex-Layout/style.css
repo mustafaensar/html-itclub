@@ -1,0 +1,80 @@
+body {
+    background-image: url('bg.png');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 300px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.floor1 {
+    width: 300px;
+    height: 150px;
+    margin: 0px auto;
+    background-image: url('bg3.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+}
+
+.floor2 {
+    width: 300px;
+    height: 310px;
+    margin: 0px auto;
+    background-color: yellow;
+    background-size: cover;
+    position: absolute;
+    top: 150px;
+}
+
+.info {
+    width: 250px;
+    height: 150px;
+    background-color: blanchedalmond;
+    margin: 0px auto;
+    position: absolute;
+    top: 75px;
+    left: 25px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    margin: 0px auto;
+    background-color: green;
+    background-size: cover;
+    position: absolute;
+    top: 460px;
+}
+
+#image {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    top: 50px;
+    left: 120px;
+}
+
+#image img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#image:hover {
+    background-image: url('camera.png');
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
