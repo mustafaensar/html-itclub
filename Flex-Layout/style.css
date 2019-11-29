@@ -46,7 +46,6 @@ body {
     display: flex;
     justify-content: center;
     background-color: white;
-    background-size: cover;
     position: absolute;
     top: 150px;
 }
@@ -179,17 +178,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 0px;
 }
 
 .menu img {
     width: 20px;
     height: 20px;
     opacity: 0.6;
-}
-
-.menu p {
-    margin: 0;
 }
 
 .menu a {
