@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(white, #D3D8E8);
+}
+
+main {
+    
+}
