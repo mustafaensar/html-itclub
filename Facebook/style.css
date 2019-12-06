@@ -4,6 +4,7 @@
     border: 0;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
+    line-height: 1.34
 }
 
 .clean {
@@ -23,9 +24,8 @@
     width: 74vw;
     height: 82px;
     display: flex;
-    flex-flow: column wrap;
-    align-content: space-between;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .head .logo img {
@@ -34,9 +34,70 @@
     margin: 17px 0px 0px;
 }
 
+.logincontainer {
+    width: 410px;
+    height: 65px;
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    color: #ffffff;
+    
+}
+
+.logincontainer1, .logincontainer2, .loginbuttonarea {
+    width: 165px;
+    padding-right: 10px;
+}
+
+.login {
+    width: 142px;
+    border-color: #1d2a5b;
+    margin: 0px;
+    padding-bottom: 4px;
+    -webkit-appearance: none;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-radius: 0px;
+    padding: 3px;
+}
+
+#email, #pass {
+    position: relative;
+    top: 5px;
+}
+
+#loginbutton {
+    color: white;
+    font-weight: bold;
+    background-color: #4267b2;
+    border: 1px solid #29497f;
+    padding: 2px 6px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.logincontainer2 a {
+    color: #9cb4d8;
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.loginbuttonarea {
+    position: relative;
+    top: 21px;
+}
+
+.forget {
+    position: relative;
+    top: 10px;
+}
+
 .floor2 {
     width: 100vw;
-    height: 640px;
+    height: 600px;
     background: linear-gradient(white, #D3D8E8);
     display: flex;
     align-items: center;
@@ -51,8 +112,233 @@
     justify-items: center;
 }
 
-.footer {
-    width: 74vw;
+.floor3 {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    padding-top: 30px;
+}
+
+.container1 h2 {
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+
+.container1 img {
+    width: 537px;
+    height: 195px;
+}
+
+.container2 {
+    position: relative;
+    left: 60px;
+}
+
+.rgstrhead {
+    padding-top: 40px;
+    scroll-padding-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.rgstrhead h1 {
+    font-size: 36px;
+    color: #333;
+    font-weight: 600;
+    margin: 0px 0px 5px;
+}
+
+.rgstrhead h3 {
+    color: #1d2129;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.textarea1, .textarea2, .textarea3 {
+    width: 400px;
+}
+
+.textarea2 {
+    position: relative;
+    top: 10px;
+}
+
+.textarea3 {
+    position: relative;
+    top: 20px;
+}
+
+.inputtext1, .inputtext2 {
+    width: 172px;
+}
+
+.inputtext3, .inputtext4 {
+    width: 380px;
+}
+
+.inputtext1 {
+    float: left;
+}
+
+.inputtext2 {
+    float: right;
+}
+
+.inputtext1, .inputtext2, .inputtext3, .inputtext4 {
+    font-size: 18px;
+    padding: 8px 10px;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    margin: 0;
+    background-color: #fff;
+    color: #1c1e21;
+    position: relative;
+    -webkit-appearance: none;
+    border: 1px solid #ccd0d5;
+}
+
+.birthday {
+    position: relative;
+    top: 20px;
+}
+
+.date {
+    position: relative;
+    top: 5px;
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    background-color: #fff;
+    color: #1c1e21;
+    border: 1px solid #ccd0d5;
+}
+
+.gender {
+    cursor: default;
+    position: relative;
+    top: 20px;
+}
+
+.birthday h4, .gender h4 {
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    cursor: default;
+}
+.birthday img, .gender img {
+    border-radius: 50%;
+}
+
+.genderlabel {
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+    cursor: default;
+}
+
+.genderselection {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.birthdayselection #more {
+    position: relative;
+    top: 13px;
+    left: 5px;
+}
+
+.info {
+    position: relative;
+    top: 30px;
+}
+
+.infotext {
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+}
+
+.rgstrbutton {
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    line-height: 126%;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    background: linear-gradient(#67ae55, #578843);
+    border: 1px solid #3b6e22;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    top: 35px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+.createpage {
+    position: relative;
+    top: 40px;
+    color: #5b5b5b;
+}
+
+.createpage a {
+    text-decoration: none;
+    color: #0e385f;
+}
+
+.footer, #rights {
+    width: 70vw;
     height: 136px;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #385898;
+    cursor: pointer;
+}
+
+.footer1 li, .footer2 li {
+    float: left;
+    list-style-type: none;
+    padding-right: 15px;
+}
+
+#line {
+    width: 60vw;
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#rights {
+    font-size: 11px;
+    color: #737373;
 }
