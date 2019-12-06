@@ -2,14 +2,57 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
 }
 
-html, body {
+.clean {
+    clear: both;
+}
+
+.floor1 {
     width: 100vw;
-    height: 100vh;
-    background: linear-gradient(white, #D3D8E8);
+    height: 82px;
+    background-color: #385898;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-main {
-    
+.head {
+    width: 74vw;
+    height: 82px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.head .logo img {
+    width: 170px;
+    height: 34px;
+    margin: 17px 0px 0px;
+}
+
+.floor2 {
+    width: 100vw;
+    height: 640px;
+    background: linear-gradient(white, #D3D8E8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain {
+    width: 74vw;
+    height: 640px;
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+}
+
+.footer {
+    width: 74vw;
+    height: 136px;
+    background-color: #ffffff;
 }
